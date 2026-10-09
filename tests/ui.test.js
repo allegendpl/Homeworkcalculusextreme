@@ -98,3 +98,47 @@ test('player resolves query, updates SEO, gates local play, records counts, and 
   favorite.onclick(); assert.equal(favorite.getAttribute('aria-pressed'), 'true');
   h.context.location.search = '?id=missing'; h.run('js/game.js'); await h.settle(); assert.equal(h.ids.get('game-title').textContent, 'Game unavailable'); assert.equal(action.hidden, true);
 });
+
+test('official external player requires consent and keeps the exact embed with origin isolation', async () => {
+  const external = seed.find(g => g.embedUrl.startsWith('https:'));
+  assert.ok(external, 'The delivered catalog needs publisher games.');
+  const h = harness('game'); h.context.location.search = `?id=${external.id}`;
+  for (const id of ['player', 'game-title', 'game-category', 'game-description', 'game-controls', 'game-note', 'game-credit', 'related-games', 'player-status']) h.add(id);
+  const favorite = h.add('favorite-game', 'button'); favorite.append(new Node('span'));
+  h.add('fullscreen', 'button'); h.add('report-problem', 'a'); h.add('theme-toggle', 'button'); h.add('actions', 'div', 'game-actions');
+  h.run('js/app.js'); h.run('js/ads.js'); h.run('js/game.js'); await h.settle();
+  const button = h.ids.get('player').querySelector('button');
+  button.onclick(); assert.equal(h.ids.get('player').querySelector('iframe'), null); assert.equal(h.context.EC.plays()[external.id], undefined);
+  const consent = h.document.querySelector('.consent-banner'); assert.ok(!consent.hidden);
+  consent.querySelectorAll('button')[1].onclick(); button.onclick();
+  const iframe = h.ids.get('player').querySelector('iframe'); assert.ok(iframe);
+  assert.equal(iframe.src, external.embedUrl); assert.equal(iframe.title, `Play ${external.title}`);
+  assert.equal(iframe.getAttribute('sandbox'), 'allow-scripts allow-same-origin allow-pointer-lock allow-popups');
+  assert.ok(!iframe.getAttribute('sandbox').includes('allow-top-navigation')); assert.ok(iframe.allowFullscreen);
+  assert.equal(h.context.EC.plays()[external.id], 1);
+  assert.match(h.ids.get('game-credit').textContent, /GameMonetize/);
+});
+
+test('delivered 204-game catalog renders all pages in 48-card batches with real artwork URLs', async () => {
+  const h = harness('home'), { add, ids } = h;
+  for (const id of ['game-grid', 'game-count', 'grid-progress', 'empty-state', 'categories', 'sorts']) add(id);
+  for (const id of ['load-more', 'random-button', 'theme-toggle', 'install-button']) add(id, 'button');
+  add('search', 'input');
+  for (const category of ['All', 'Favorites']) { const button = new Node('button'); button.dataset.category = category; ids.get('categories').append(button); }
+  for (const sort of ['default', 'az', 'played', 'new']) { const button = new Node('button'); button.dataset.sort = sort; ids.get('sorts').append(button); }
+  h.run('js/app.js'); await h.settle();
+  assert.equal(ids.get('game-count').textContent, `${seed.length} games`);
+  const grid = ids.get('game-grid'); assert.equal(grid.children.length, 48);
+  for (const count of [96, 144, 192, seed.length]) { ids.get('load-more').onclick(); assert.equal(grid.children.length, count); }
+  assert.equal(ids.get('load-more').hidden, true);
+  grid.children.forEach((card, index) => {
+    assert.equal(card.querySelector('img').src, seed[index].thumbnail);
+    assert.equal(card.querySelector('img').loading, 'lazy');
+    assert.equal(card.querySelector('a').href, `game.html?id=${seed[index].id}`);
+  });
+  const search = ids.get('search'); search.value = 'Extreme Golf'; search.dispatchEvent({ type: 'input' });
+  assert.equal(grid.children.length, 1); assert.equal(grid.children[0].querySelector('.card-title').textContent, 'Extreme Golf');
+  const sports = ids.get('categories').children.find(button => button.dataset.category === 'Sports');
+  assert.ok(sports); ids.get('categories').dispatchEvent({ type: 'click', target: sports });
+  assert.equal(grid.children.length, 1); assert.match(grid.children[0].querySelector('a').href, /gm-extreme-golf/);
+});

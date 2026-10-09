@@ -1,6 +1,6 @@
 /* Bump VERSION after changing shell assets. Caches only this project's own
  * shell and catalog, never third-party advertising or publisher resources. */
-const VERSION = 'v1';
+const VERSION = 'v4';
 const ROOT = new URL('./', self.location.href);
 const PREFIX = `extremecalculus-${ROOT.pathname}-`;
 const CACHE = `${PREFIX}${VERSION}`;

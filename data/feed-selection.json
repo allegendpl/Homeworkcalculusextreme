@@ -1,0 +1,1228 @@
+{
+  "provider": "GameMonetize",
+  "permissionUrl": "https://gamemonetize.com/faq",
+  "feedDocumentationUrl": "https://gamemonetize.com/rss-builder",
+  "reviewedAt": "2026-10-09",
+  "studios": [
+    {
+      "company": "QkyGames",
+      "source": "QkyGames",
+      "ids": [
+        "23091",
+        "13753",
+        "13714",
+        "13677",
+        "9108",
+        "9004",
+        "8993",
+        "8987",
+        "8482",
+        "8191",
+        "8190",
+        "8184",
+        "6780",
+        "6715",
+        "6714",
+        "6417",
+        "6402",
+        "6396",
+        "6395",
+        "6392",
+        "6391",
+        "5809",
+        "5778",
+        "5777",
+        "5578",
+        "5565",
+        "5532",
+        "5473",
+        "5472",
+        "5467",
+        "5463",
+        "5457",
+        "5397",
+        "5396",
+        "5395",
+        "5378",
+        "5377",
+        "5356",
+        "5355",
+        "5348",
+        "5347",
+        "5346",
+        "5301",
+        "5284",
+        "5283",
+        "5282",
+        "5271",
+        "5262",
+        "5248",
+        "5247",
+        "5228",
+        "5227",
+        "5205",
+        "5204",
+        "5190",
+        "5186",
+        "5182",
+        "5181",
+        "5166",
+        "5151",
+        "5150",
+        "5149",
+        "5084",
+        "88",
+        "87",
+        "17",
+        "16",
+        "15",
+        "14",
+        "13",
+        "12",
+        "11",
+        "10",
+        "9"
+      ],
+      "approvedResources": {
+        "23091": {
+          "title": "2048 Forest",
+          "embedUrl": "https://html5.gamemonetize.co/r1nboq2dwyckjhq1ylhy68owbwynr6xz/",
+          "thumbnail": "https://img.gamemonetize.com/r1nboq2dwyckjhq1ylhy68owbwynr6xz/512x384.jpg"
+        },
+        "13753": {
+          "title": "Crazy Drift",
+          "embedUrl": "https://html5.gamemonetize.co/mki8rjxls271d4h7eeuh94ucg52z3zpa/",
+          "thumbnail": "https://img.gamemonetize.com/mki8rjxls271d4h7eeuh94ucg52z3zpa/512x384.jpg"
+        },
+        "13714": {
+          "title": "Jumping Joe",
+          "embedUrl": "https://html5.gamemonetize.co/wg3xp1ythsjeicpxveajwtkcludl7zgq/",
+          "thumbnail": "https://img.gamemonetize.com/wg3xp1ythsjeicpxveajwtkcludl7zgq/512x384.jpg"
+        },
+        "13677": {
+          "title": "Ball Maze",
+          "embedUrl": "https://html5.gamemonetize.co/5j6qld6sqd1dl20xg1o0f06b21h4c567/",
+          "thumbnail": "https://img.gamemonetize.com/5j6qld6sqd1dl20xg1o0f06b21h4c567/512x384.jpg"
+        },
+        "9108": {
+          "title": "Two Colors",
+          "embedUrl": "https://html5.gamemonetize.co/pwe8gctn5gp823d1lj0ft007xm55u26j/",
+          "thumbnail": "https://img.gamemonetize.com/pwe8gctn5gp823d1lj0ft007xm55u26j/512x384.jpg"
+        },
+        "9004": {
+          "title": "Laser Slicer",
+          "embedUrl": "https://html5.gamemonetize.co/7gdz58ewlgp7mij61et0y91zsfhoz2w6/",
+          "thumbnail": "https://img.gamemonetize.com/7gdz58ewlgp7mij61et0y91zsfhoz2w6/512x384.jpg"
+        },
+        "8993": {
+          "title": "Balls Burst",
+          "embedUrl": "https://html5.gamemonetize.co/3vbhdc8e1x7s8kbf5ycds42y8ktniitl/",
+          "thumbnail": "https://img.gamemonetize.com/3vbhdc8e1x7s8kbf5ycds42y8ktniitl/512x384.jpg"
+        },
+        "8987": {
+          "title": "Chicken Jumper",
+          "embedUrl": "https://html5.gamemonetize.co/oradv3c6wtj19bsn8e3din3lk9xe7giw/",
+          "thumbnail": "https://img.gamemonetize.com/oradv3c6wtj19bsn8e3din3lk9xe7giw/512x384.jpg"
+        },
+        "8482": {
+          "title": "Tricky Shapes",
+          "embedUrl": "https://html5.gamemonetize.co/wmhmo6lin8ht9j7ramxenng0upkbcoh8/",
+          "thumbnail": "https://img.gamemonetize.com/wmhmo6lin8ht9j7ramxenng0upkbcoh8/512x384.jpg"
+        },
+        "8191": {
+          "title": "Jump Color",
+          "embedUrl": "https://html5.gamemonetize.co/gfitirfvh8tx6ane1rkhvxhfry0r364k/",
+          "thumbnail": "https://img.gamemonetize.com/gfitirfvh8tx6ane1rkhvxhfry0r364k/512x384.jpg"
+        },
+        "8190": {
+          "title": "Color Blocks 2",
+          "embedUrl": "https://html5.gamemonetize.co/9srbdlvlt3ya7jaanaqov4fwm2ke5uvf/",
+          "thumbnail": "https://img.gamemonetize.com/9srbdlvlt3ya7jaanaqov4fwm2ke5uvf/512x384.jpg"
+        },
+        "8184": {
+          "title": "Wave Run",
+          "embedUrl": "https://html5.gamemonetize.co/jfn77c7yr9gc7xbee4e82bzxcpefbbzv/",
+          "thumbnail": "https://img.gamemonetize.com/jfn77c7yr9gc7xbee4e82bzxcpefbbzv/512x384.jpg"
+        },
+        "6780": {
+          "title": "Ragdoll Bounce",
+          "embedUrl": "https://html5.gamemonetize.co/beew6178qjch4cqi2o9hympn0jo214nc/",
+          "thumbnail": "https://img.gamemonetize.com/beew6178qjch4cqi2o9hympn0jo214nc/512x384.jpg"
+        },
+        "6715": {
+          "title": "Rotated Cups",
+          "embedUrl": "https://html5.gamemonetize.co/64rxgbjvnb7h4rb0pl4jyqpq6u8yvl72/",
+          "thumbnail": "https://img.gamemonetize.com/64rxgbjvnb7h4rb0pl4jyqpq6u8yvl72/512x384.jpg"
+        },
+        "6714": {
+          "title": "Color Wheel",
+          "embedUrl": "https://html5.gamemonetize.co/0w115i6fgemb5m2wme2k492niv8214z2/",
+          "thumbnail": "https://img.gamemonetize.com/0w115i6fgemb5m2wme2k492niv8214z2/512x384.jpg"
+        },
+        "6417": {
+          "title": "Stack Color",
+          "embedUrl": "https://html5.gamemonetize.co/zrkkxlvenl43q9373i9hkx5hpuqnndrn/",
+          "thumbnail": "https://img.gamemonetize.com/zrkkxlvenl43q9373i9hkx5hpuqnndrn/512x384.jpg"
+        },
+        "6402": {
+          "title": "Rope Master",
+          "embedUrl": "https://html5.gamemonetize.co/i7sfy7x6zqyal9uvobmrgruk0rn3cnwv/",
+          "thumbnail": "https://img.gamemonetize.com/i7sfy7x6zqyal9uvobmrgruk0rn3cnwv/512x384.jpg"
+        },
+        "6396": {
+          "title": "Sliding Blocks",
+          "embedUrl": "https://html5.gamemonetize.co/h9vhqf7el8qzyxnnlcvr73sfcnkjiwy0/",
+          "thumbnail": "https://img.gamemonetize.com/h9vhqf7el8qzyxnnlcvr73sfcnkjiwy0/512x384.jpg"
+        },
+        "6395": {
+          "title": "Extreme Golf",
+          "embedUrl": "https://html5.gamemonetize.co/kq5oldino1ojcgtvgpyjvo408ges5g4p/",
+          "thumbnail": "https://img.gamemonetize.com/kq5oldino1ojcgtvgpyjvo408ges5g4p/512x384.jpg"
+        },
+        "6392": {
+          "title": "Happy Fishing",
+          "embedUrl": "https://html5.gamemonetize.co/8ajig3h7j7xix9jv30bgs38nm5v5ky0s/",
+          "thumbnail": "https://img.gamemonetize.com/8ajig3h7j7xix9jv30bgs38nm5v5ky0s/512x384.jpg"
+        },
+        "6391": {
+          "title": "Dunk Fall",
+          "embedUrl": "https://html5.gamemonetize.co/i06uje6bno463yj2q53byug68yct1gsk/",
+          "thumbnail": "https://img.gamemonetize.com/i06uje6bno463yj2q53byug68yct1gsk/512x384.jpg"
+        },
+        "5809": {
+          "title": "Dot Lines",
+          "embedUrl": "https://html5.gamemonetize.co/eomejiyqn9t5f7wczqhzx3kj7murikrw/",
+          "thumbnail": "https://img.gamemonetize.com/eomejiyqn9t5f7wczqhzx3kj7murikrw/512x384.jpg"
+        },
+        "5778": {
+          "title": "Draw Parking",
+          "embedUrl": "https://html5.gamemonetize.co/ycl98hsa44p8639j1db7anmqkbkzax09/",
+          "thumbnail": "https://img.gamemonetize.com/ycl98hsa44p8639j1db7anmqkbkzax09/512x384.jpg"
+        },
+        "5777": {
+          "title": "Cannon Strike",
+          "embedUrl": "https://html5.gamemonetize.co/fsmr701i407syxvmdgwqx1cppxmijpjz/",
+          "thumbnail": "https://img.gamemonetize.com/fsmr701i407syxvmdgwqx1cppxmijpjz/512x384.jpg"
+        },
+        "5578": {
+          "title": "Hop Ball",
+          "embedUrl": "https://html5.gamemonetize.co/yaz6h6uo0lzzxze5olw9i3zuuc9r5fr4/",
+          "thumbnail": "https://img.gamemonetize.com/yaz6h6uo0lzzxze5olw9i3zuuc9r5fr4/512x384.jpg"
+        },
+        "5565": {
+          "title": "Stick Archery",
+          "embedUrl": "https://html5.gamemonetize.co/wyws6deawr0olxaydllu3met2d7f4bg1/",
+          "thumbnail": "https://img.gamemonetize.com/wyws6deawr0olxaydllu3met2d7f4bg1/512x384.jpg"
+        },
+        "5532": {
+          "title": "Soccer Balls",
+          "embedUrl": "https://html5.gamemonetize.co/qm9a8zbphp2obdndrrw4xrnfzg66o1ce/",
+          "thumbnail": "https://img.gamemonetize.com/qm9a8zbphp2obdndrrw4xrnfzg66o1ce/512x384.jpg"
+        },
+        "5473": {
+          "title": "Push The Box",
+          "embedUrl": "https://html5.gamemonetize.co/uekzxrqngu9cgpn2n67knuym8k1wthxn/",
+          "thumbnail": "https://img.gamemonetize.com/uekzxrqngu9cgpn2n67knuym8k1wthxn/512x384.jpg"
+        },
+        "5472": {
+          "title": "Hole 24",
+          "embedUrl": "https://html5.gamemonetize.co/hap1gebviw6seqrbhpdz77is1clkh9ky/",
+          "thumbnail": "https://img.gamemonetize.com/hap1gebviw6seqrbhpdz77is1clkh9ky/512x384.jpg"
+        },
+        "5467": {
+          "title": "Box Blast",
+          "embedUrl": "https://html5.gamemonetize.co/lks26vgpdvi1rluc5r7bdj8ymajy6fzs/",
+          "thumbnail": "https://img.gamemonetize.com/lks26vgpdvi1rluc5r7bdj8ymajy6fzs/512x384.jpg"
+        },
+        "5463": {
+          "title": "Spin Soccer",
+          "embedUrl": "https://html5.gamemonetize.co/vqgyo8uypduvoew0lalf3vw20lighthd/",
+          "thumbnail": "https://img.gamemonetize.com/vqgyo8uypduvoew0lalf3vw20lighthd/512x384.jpg"
+        },
+        "5457": {
+          "title": "Blasty Bottles",
+          "embedUrl": "https://html5.gamemonetize.co/v9gjaozuxd1tadkat3n8zsue1anawkbs/",
+          "thumbnail": "https://img.gamemonetize.com/v9gjaozuxd1tadkat3n8zsue1anawkbs/512x384.jpg"
+        },
+        "5397": {
+          "title": "Risky Rescue",
+          "embedUrl": "https://html5.gamemonetize.co/lt3qinn250tctfxz8zdbo0ckuavixqij/",
+          "thumbnail": "https://img.gamemonetize.com/lt3qinn250tctfxz8zdbo0ckuavixqij/512x384.jpg"
+        },
+        "5396": {
+          "title": "Brain Dunk",
+          "embedUrl": "https://html5.gamemonetize.co/gp1gdimcsw98doul6l81qmpxzolrror8/",
+          "thumbnail": "https://img.gamemonetize.com/gp1gdimcsw98doul6l81qmpxzolrror8/512x384.jpg"
+        },
+        "5395": {
+          "title": "Draw Racing",
+          "embedUrl": "https://html5.gamemonetize.co/1ebv2n5pm63thy2bqrrjpvxx3zdi9tib/",
+          "thumbnail": "https://img.gamemonetize.com/1ebv2n5pm63thy2bqrrjpvxx3zdi9tib/512x384.jpg"
+        },
+        "5378": {
+          "title": "Street Basketball",
+          "embedUrl": "https://html5.gamemonetize.co/idq8iuxljuqqlodoj0t3fj88qpbjfujx/",
+          "thumbnail": "https://img.gamemonetize.com/idq8iuxljuqqlodoj0t3fj88qpbjfujx/512x384.jpg"
+        },
+        "5377": {
+          "title": "Jump and Goal",
+          "embedUrl": "https://html5.gamemonetize.co/1gp1bcdabfe37f6eq53ypohucvuix7jz/",
+          "thumbnail": "https://img.gamemonetize.com/1gp1bcdabfe37f6eq53ypohucvuix7jz/512x384.jpg"
+        },
+        "5356": {
+          "title": "Memory Challenge",
+          "embedUrl": "https://html5.gamemonetize.co/ma29j42jqtpkzu7rdpftxkendtyw6ewt/",
+          "thumbnail": "https://img.gamemonetize.com/ma29j42jqtpkzu7rdpftxkendtyw6ewt/512x384.jpg"
+        },
+        "5355": {
+          "title": "Paint Blue",
+          "embedUrl": "https://html5.gamemonetize.co/dtj63dy8267pvuli1o95dwee3pqqppr2/",
+          "thumbnail": "https://img.gamemonetize.com/dtj63dy8267pvuli1o95dwee3pqqppr2/512x384.jpg"
+        },
+        "5348": {
+          "title": "Stack Tower",
+          "embedUrl": "https://html5.gamemonetize.co/o613fd9l8r9nnje174ezwan2v3yfnjfc/",
+          "thumbnail": "https://img.gamemonetize.com/o613fd9l8r9nnje174ezwan2v3yfnjfc/512x384.jpg"
+        },
+        "5347": {
+          "title": "Chicken Road",
+          "embedUrl": "https://html5.gamemonetize.co/lugw2ijd75d0lzv99y1dpdk1y3yjkwj5/",
+          "thumbnail": "https://img.gamemonetize.com/lugw2ijd75d0lzv99y1dpdk1y3yjkwj5/512x384.jpg"
+        },
+        "5346": {
+          "title": "Block Blast",
+          "embedUrl": "https://html5.gamemonetize.co/6h80woyrz2xn1laju1k8bnkmcyavxzw3/",
+          "thumbnail": "https://img.gamemonetize.com/6h80woyrz2xn1laju1k8bnkmcyavxzw3/512x384.jpg"
+        },
+        "5301": {
+          "title": "Flipper Ball",
+          "embedUrl": "https://html5.gamemonetize.co/7hu8crkqly05k2dvjqxys3cpuphe8qff/",
+          "thumbnail": "https://img.gamemonetize.com/7hu8crkqly05k2dvjqxys3cpuphe8qff/512x384.jpg"
+        },
+        "5284": {
+          "title": "Knife Climb",
+          "embedUrl": "https://html5.gamemonetize.co/zhtzwsftpngqrrhbarzvdokn36wyhkyg/",
+          "thumbnail": "https://img.gamemonetize.com/zhtzwsftpngqrrhbarzvdokn36wyhkyg/512x384.jpg"
+        },
+        "5283": {
+          "title": "Arrower",
+          "embedUrl": "https://html5.gamemonetize.co/2a42ei7ztbdoetftbda3jy238u26ub7x/",
+          "thumbnail": "https://img.gamemonetize.com/2a42ei7ztbdoetftbda3jy238u26ub7x/512x384.jpg"
+        },
+        "5282": {
+          "title": "Baseball Hit",
+          "embedUrl": "https://html5.gamemonetize.co/gr0quara1pbwe7u5i3un0eqg6ww3qv46/",
+          "thumbnail": "https://img.gamemonetize.com/gr0quara1pbwe7u5i3un0eqg6ww3qv46/512x384.jpg"
+        },
+        "5271": {
+          "title": "Fire Road",
+          "embedUrl": "https://html5.gamemonetize.co/5nq92877n5mbpw43uwbz99zauxnd9bde/",
+          "thumbnail": "https://img.gamemonetize.com/5nq92877n5mbpw43uwbz99zauxnd9bde/512x384.jpg"
+        },
+        "5262": {
+          "title": "Perfect Dunk",
+          "embedUrl": "https://html5.gamemonetize.co/u1x5k6s7kvtfdymnrjd8170i7815k85e/",
+          "thumbnail": "https://img.gamemonetize.com/u1x5k6s7kvtfdymnrjd8170i7815k85e/512x384.jpg"
+        },
+        "5248": {
+          "title": "Ball Clash",
+          "embedUrl": "https://html5.gamemonetize.co/qbk9oskpui2dycmqsv3gydtu9xitk7ua/",
+          "thumbnail": "https://img.gamemonetize.com/qbk9oskpui2dycmqsv3gydtu9xitk7ua/512x384.jpg"
+        },
+        "5247": {
+          "title": "Traffic Run",
+          "embedUrl": "https://html5.gamemonetize.co/hx4s5iare6ulcbkna8vub7794rnj0bkh/",
+          "thumbnail": "https://img.gamemonetize.com/hx4s5iare6ulcbkna8vub7794rnj0bkh/512x384.jpg"
+        },
+        "5228": {
+          "title": "Neon War",
+          "embedUrl": "https://html5.gamemonetize.co/l0918off48k6hglv1q0y0z1e72bt0tul/",
+          "thumbnail": "https://img.gamemonetize.com/l0918off48k6hglv1q0y0z1e72bt0tul/512x384.jpg"
+        },
+        "5227": {
+          "title": "Dot Rush",
+          "embedUrl": "https://html5.gamemonetize.co/a7qdvk6s1htr65x9ggwk41yq2oo7ni7y/",
+          "thumbnail": "https://img.gamemonetize.com/a7qdvk6s1htr65x9ggwk41yq2oo7ni7y/512x384.jpg"
+        },
+        "5205": {
+          "title": "Pocket Hockey",
+          "embedUrl": "https://html5.gamemonetize.co/ae2s91gehfgncxghrr75ias7yp654j6e/",
+          "thumbnail": "https://img.gamemonetize.com/ae2s91gehfgncxghrr75ias7yp654j6e/512x384.jpg"
+        },
+        "5204": {
+          "title": "Bricks Master",
+          "embedUrl": "https://html5.gamemonetize.co/vvokhwx8zy92trpn99vfrjdsmkhzhq0c/",
+          "thumbnail": "https://img.gamemonetize.com/vvokhwx8zy92trpn99vfrjdsmkhzhq0c/512x384.jpg"
+        },
+        "5190": {
+          "title": "Beeline",
+          "embedUrl": "https://html5.gamemonetize.co/n1j7hlcmcb0danug2jzvo0i3dmdmntnb/",
+          "thumbnail": "https://img.gamemonetize.com/n1j7hlcmcb0danug2jzvo0i3dmdmntnb/512x384.jpg"
+        },
+        "5186": {
+          "title": "Power Light",
+          "embedUrl": "https://html5.gamemonetize.co/6yg7qrxjghvt3gxiumi7q3tcjcudprew/",
+          "thumbnail": "https://img.gamemonetize.com/6yg7qrxjghvt3gxiumi7q3tcjcudprew/512x384.jpg"
+        },
+        "5182": {
+          "title": "Flippy Bottle",
+          "embedUrl": "https://html5.gamemonetize.co/5le61yhp4nbwqkdcaj8l6vla40sho0ju/",
+          "thumbnail": "https://img.gamemonetize.com/5le61yhp4nbwqkdcaj8l6vla40sho0ju/512x384.jpg"
+        },
+        "5181": {
+          "title": "Avoid Dying",
+          "embedUrl": "https://html5.gamemonetize.co/ti3v5hmv1h2mbtz86hl2xqy0h436wj7q/",
+          "thumbnail": "https://img.gamemonetize.com/ti3v5hmv1h2mbtz86hl2xqy0h436wj7q/512x384.jpg"
+        },
+        "5166": {
+          "title": "Pixel Skate",
+          "embedUrl": "https://html5.gamemonetize.co/021ild2dth66ppv9amxz5nwaa5zuqpur/",
+          "thumbnail": "https://img.gamemonetize.com/021ild2dth66ppv9amxz5nwaa5zuqpur/512x384.jpg"
+        },
+        "5151": {
+          "title": "Bouncy Dunk",
+          "embedUrl": "https://html5.gamemonetize.co/gya78gsdt3igmy33yzoola77780khxky/",
+          "thumbnail": "https://img.gamemonetize.com/gya78gsdt3igmy33yzoola77780khxky/512x384.jpg"
+        },
+        "5150": {
+          "title": "Shoot or Die",
+          "embedUrl": "https://html5.gamemonetize.co/jexowik0bb5mel2i1ukt8966l3lr6rtq/",
+          "thumbnail": "https://img.gamemonetize.com/jexowik0bb5mel2i1ukt8966l3lr6rtq/512x384.jpg"
+        },
+        "5149": {
+          "title": "Smiling Glass",
+          "embedUrl": "https://html5.gamemonetize.co/58l05tjrdda0semxivccmttcg2laqsbv/",
+          "thumbnail": "https://img.gamemonetize.com/58l05tjrdda0semxivccmttcg2laqsbv/512x384.jpg"
+        },
+        "5084": {
+          "title": "Pocket Racing",
+          "embedUrl": "https://html5.gamemonetize.co/z74c39sg4p18l6m2tza7epx8p6w4cl4c/",
+          "thumbnail": "https://img.gamemonetize.com/z74c39sg4p18l6m2tza7epx8p6w4cl4c/512x384.jpg"
+        },
+        "88": {
+          "title": "Break The Key",
+          "embedUrl": "https://html5.gamemonetize.co/yfq9fxr09gg8gxjxtkhr1h5ddd3t03ry/",
+          "thumbnail": "https://img.gamemonetize.com/yfq9fxr09gg8gxjxtkhr1h5ddd3t03ry/512x384.jpg"
+        },
+        "87": {
+          "title": "Stickman War",
+          "embedUrl": "https://html5.gamemonetize.co/x2z5jicm546h5i0oje0mfy8w1l1sefrb/",
+          "thumbnail": "https://img.gamemonetize.com/x2z5jicm546h5i0oje0mfy8w1l1sefrb/512x384.jpg"
+        },
+        "17": {
+          "title": "Stickjet Challenge",
+          "embedUrl": "https://html5.gamemonetize.co/6llmqld55g7qwo4edn405xfjip6o1t37/",
+          "thumbnail": "https://img.gamemonetize.com/6llmqld55g7qwo4edn405xfjip6o1t37/512x384.jpg"
+        },
+        "16": {
+          "title": "Abstract Golf",
+          "embedUrl": "https://html5.gamemonetize.co/466350rvtva1sk6ouuoumuplc2eoefyj/",
+          "thumbnail": "https://img.gamemonetize.com/466350rvtva1sk6ouuoumuplc2eoefyj/512x384.jpg"
+        },
+        "15": {
+          "title": "Ball Challenge",
+          "embedUrl": "https://html5.gamemonetize.co/bqwkcwye412uu971td4au2gzr7ox71xj/",
+          "thumbnail": "https://img.gamemonetize.com/bqwkcwye412uu971td4au2gzr7ox71xj/512x384.jpg"
+        },
+        "14": {
+          "title": "Fill Line",
+          "embedUrl": "https://html5.gamemonetize.co/1h2vp9wrwncvruaxd97ccff0kys7pmyr/",
+          "thumbnail": "https://img.gamemonetize.com/1h2vp9wrwncvruaxd97ccff0kys7pmyr/512x384.jpg"
+        },
+        "13": {
+          "title": "Hard Truck",
+          "embedUrl": "https://html5.gamemonetize.co/rvfxjqttcrho4kx09djpygsinr4w8xwz/",
+          "thumbnail": "https://img.gamemonetize.com/rvfxjqttcrho4kx09djpygsinr4w8xwz/512x384.jpg"
+        },
+        "12": {
+          "title": "Just One",
+          "embedUrl": "https://html5.gamemonetize.co/gdvf5gjedlf6gw2d00vgviv8s37cv32b/",
+          "thumbnail": "https://img.gamemonetize.com/gdvf5gjedlf6gw2d00vgviv8s37cv32b/512x384.jpg"
+        },
+        "11": {
+          "title": "Yellow Lines",
+          "embedUrl": "https://html5.gamemonetize.co/ms4trixlk5f86zss1rs9w907ibsf8tlv/",
+          "thumbnail": "https://img.gamemonetize.com/ms4trixlk5f86zss1rs9w907ibsf8tlv/512x384.jpg"
+        },
+        "10": {
+          "title": "Hole in One",
+          "embedUrl": "https://html5.gamemonetize.co/393xc6qs7lcxgl8u45p602md5xv3p3ts/",
+          "thumbnail": "https://img.gamemonetize.com/393xc6qs7lcxgl8u45p602md5xv3p3ts/512x384.jpg"
+        },
+        "9": {
+          "title": "Bounce Ball",
+          "embedUrl": "https://html5.gamemonetize.co/bwqvo9lb1otu4f5yncfj6gto2jxhc2gn/",
+          "thumbnail": "https://img.gamemonetize.com/bwqvo9lb1otu4f5yncfj6gto2jxhc2gn/512x384.jpg"
+        }
+      }
+    },
+    {
+      "company": "InlogicSoftwares.r.o.",
+      "source": "Inlogic Software s.r.o.",
+      "ids": [
+        "35220",
+        "35209",
+        "35121",
+        "32622",
+        "32479",
+        "32389",
+        "32301",
+        "32230",
+        "32059",
+        "32001",
+        "31864",
+        "31825",
+        "31667",
+        "31182",
+        "31130",
+        "31073",
+        "30930",
+        "30619",
+        "30575",
+        "30470",
+        "30432",
+        "30092",
+        "30028",
+        "29923",
+        "29551",
+        "29538",
+        "28993",
+        "28691",
+        "28484",
+        "28377",
+        "28272",
+        "27871",
+        "26921",
+        "26791",
+        "26456",
+        "26414",
+        "25742",
+        "25650",
+        "25461",
+        "25225",
+        "24665",
+        "24478",
+        "24152",
+        "23984",
+        "23220",
+        "22688",
+        "22687",
+        "21912",
+        "21319",
+        "20728",
+        "20681",
+        "20675",
+        "20647",
+        "20646",
+        "20606",
+        "20604",
+        "8786",
+        "8277",
+        "7927",
+        "7926",
+        "7363",
+        "7296",
+        "7146",
+        "6987",
+        "6863",
+        "6265",
+        "6061",
+        "5991",
+        "5906",
+        "5843",
+        "5660",
+        "5549",
+        "5461",
+        "5425",
+        "5290",
+        "4892",
+        "4706",
+        "4477",
+        "4253",
+        "3720",
+        "3578",
+        "3451",
+        "3377",
+        "3350",
+        "3289",
+        "2986",
+        "2859"
+      ],
+      "approvedResources": {
+        "35220": {
+          "title": "Knife Madness",
+          "embedUrl": "https://html5.gamemonetize.co/0npammu9ftwyu3a4p4b7dpluj6sq368e/",
+          "thumbnail": "https://img.gamemonetize.com/0npammu9ftwyu3a4p4b7dpluj6sq368e/512x384.jpg"
+        },
+        "35209": {
+          "title": "Moto Race City",
+          "embedUrl": "https://html5.gamemonetize.co/q0bv0dhbsdkv726khzvwkk72liyyilgp/",
+          "thumbnail": "https://img.gamemonetize.com/q0bv0dhbsdkv726khzvwkk72liyyilgp/512x384.jpg"
+        },
+        "35121": {
+          "title": "My Tiny Market",
+          "embedUrl": "https://html5.gamemonetize.co/if0vl0cck4st4pxcxjppbsny1h6tzutn/",
+          "thumbnail": "https://img.gamemonetize.com/if0vl0cck4st4pxcxjppbsny1h6tzutn/512x384.jpg"
+        },
+        "32622": {
+          "title": "Jewel Miner Quest",
+          "embedUrl": "https://html5.gamemonetize.co/dpnk0do4wordmnhcmejlqly9horc8dpi/",
+          "thumbnail": "https://img.gamemonetize.com/dpnk0do4wordmnhcmejlqly9horc8dpi/512x384.jpg"
+        },
+        "32479": {
+          "title": "Match 3D Puzzle Mania",
+          "embedUrl": "https://html5.gamemonetize.co/dknfzlo018fucv5igyifvwuiprwrhtxy/",
+          "thumbnail": "https://img.gamemonetize.com/dknfzlo018fucv5igyifvwuiprwrhtxy/512x384.jpg"
+        },
+        "32389": {
+          "title": "Kitchen Sorting",
+          "embedUrl": "https://html5.gamemonetize.co/qt9jxy4clkxrv1zharuv23dr2vl4ohhe/",
+          "thumbnail": "https://img.gamemonetize.com/qt9jxy4clkxrv1zharuv23dr2vl4ohhe/512x384.jpg"
+        },
+        "32301": {
+          "title": "Zumba Quest",
+          "embedUrl": "https://html5.gamemonetize.co/y0fe6m34dwew292ezc3a14t43882m4w7/",
+          "thumbnail": "https://img.gamemonetize.com/y0fe6m34dwew292ezc3a14t43882m4w7/512x384.jpg"
+        },
+        "32230": {
+          "title": "Elite Chess",
+          "embedUrl": "https://html5.gamemonetize.co/65ycjh2i3vf7048fvbeyr50rkwfcbfnl/",
+          "thumbnail": "https://img.gamemonetize.com/65ycjh2i3vf7048fvbeyr50rkwfcbfnl/512x384.jpg"
+        },
+        "32059": {
+          "title": "Jelly Block Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/k7upgf6z69thpz5uq3yg74uedrw7r24y/",
+          "thumbnail": "https://img.gamemonetize.com/k7upgf6z69thpz5uq3yg74uedrw7r24y/512x384.jpg"
+        },
+        "32001": {
+          "title": "Domino Adventure",
+          "embedUrl": "https://html5.gamemonetize.co/xissi6tuoy9rwj54203f971u47olh4rx/",
+          "thumbnail": "https://img.gamemonetize.com/xissi6tuoy9rwj54203f971u47olh4rx/512x384.jpg"
+        },
+        "31864": {
+          "title": "Football Penalty",
+          "embedUrl": "https://html5.gamemonetize.co/ikpi1ghjcghyj8jk95k5wif87fz7hfs2/",
+          "thumbnail": "https://img.gamemonetize.com/ikpi1ghjcghyj8jk95k5wif87fz7hfs2/512x384.jpg"
+        },
+        "31825": {
+          "title": "Jewel Garden Story",
+          "embedUrl": "https://html5.gamemonetize.co/oezoo219v0bf4t552hfiityulzwls396/",
+          "thumbnail": "https://img.gamemonetize.com/oezoo219v0bf4t552hfiityulzwls396/512x384.jpg"
+        },
+        "31667": {
+          "title": "Space Survivor",
+          "embedUrl": "https://html5.gamemonetize.co/cvf6jzm7qpn2z2jt5yoct9ejttirza12/",
+          "thumbnail": "https://img.gamemonetize.com/cvf6jzm7qpn2z2jt5yoct9ejttirza12/512x384.jpg"
+        },
+        "31182": {
+          "title": "Wild Hunting Clash",
+          "embedUrl": "https://html5.gamemonetize.co/wd7cq3e3clalkrf48pize43ad29glody/",
+          "thumbnail": "https://img.gamemonetize.com/wd7cq3e3clalkrf48pize43ad29glody/512x384.jpg"
+        },
+        "31130": {
+          "title": "Tower Defenders",
+          "embedUrl": "https://html5.gamemonetize.co/g1okbcx683hwfsrcnul1adpb8xf2umgw/",
+          "thumbnail": "https://img.gamemonetize.com/g1okbcx683hwfsrcnul1adpb8xf2umgw/512x384.jpg"
+        },
+        "31073": {
+          "title": "Color Sort Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/xhh7ex13czhu6gjlbsxwc7ihma1ltmnj/",
+          "thumbnail": "https://img.gamemonetize.com/xhh7ex13czhu6gjlbsxwc7ihma1ltmnj/512x384.jpg"
+        },
+        "30930": {
+          "title": "Merge World",
+          "embedUrl": "https://html5.gamemonetize.co/467egnkx2rts5gy6aeywmiat28ijv141/",
+          "thumbnail": "https://img.gamemonetize.com/467egnkx2rts5gy6aeywmiat28ijv141/512x384.jpg"
+        },
+        "30619": {
+          "title": "Best Friends Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/1vs2hwmvsrsj3wes31qujc33budw5crx/",
+          "thumbnail": "https://img.gamemonetize.com/1vs2hwmvsrsj3wes31qujc33budw5crx/512x384.jpg"
+        },
+        "30575": {
+          "title": "Egg Hunt Mania",
+          "embedUrl": "https://html5.gamemonetize.co/eeu7skhfouxj7cgwpq83rm3fhm0jwo0x/",
+          "thumbnail": "https://img.gamemonetize.com/eeu7skhfouxj7cgwpq83rm3fhm0jwo0x/512x384.jpg"
+        },
+        "30470": {
+          "title": "Express Delivery Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/xrhri8fw69e00uocgd0z999mulnzvk76/",
+          "thumbnail": "https://img.gamemonetize.com/xrhri8fw69e00uocgd0z999mulnzvk76/512x384.jpg"
+        },
+        "30432": {
+          "title": "Color Sort Mania",
+          "embedUrl": "https://html5.gamemonetize.co/ohhubm5wex338s0lqpn6a7yjytf9o0an/",
+          "thumbnail": "https://img.gamemonetize.com/ohhubm5wex338s0lqpn6a7yjytf9o0an/512x384.jpg"
+        },
+        "30092": {
+          "title": "Farming Life",
+          "embedUrl": "https://html5.gamemonetize.co/q8w2r79771yeqx2v37xqdqwn9oh0bkmo/",
+          "thumbnail": "https://img.gamemonetize.com/q8w2r79771yeqx2v37xqdqwn9oh0bkmo/512x384.jpg"
+        },
+        "30028": {
+          "title": "Air Hockey Cup",
+          "embedUrl": "https://html5.gamemonetize.co/ef9qq4qgxq1fa0ie4gv1t3igpvx029tm/",
+          "thumbnail": "https://img.gamemonetize.com/ef9qq4qgxq1fa0ie4gv1t3igpvx029tm/512x384.jpg"
+        },
+        "29923": {
+          "title": "2048 X2 Legends",
+          "embedUrl": "https://html5.gamemonetize.co/dlewrko3e9s1074yicv4q5sydfoynash/",
+          "thumbnail": "https://img.gamemonetize.com/dlewrko3e9s1074yicv4q5sydfoynash/512x384.jpg"
+        },
+        "29551": {
+          "title": "Basketball Kings 2024",
+          "embedUrl": "https://html5.gamemonetize.co/xnzfab1hm5q86ofc9z9zuibgibo2wcrl/",
+          "thumbnail": "https://img.gamemonetize.com/xnzfab1hm5q86ofc9z9zuibgibo2wcrl/512x384.jpg"
+        },
+        "29538": {
+          "title": "Road Madness",
+          "embedUrl": "https://html5.gamemonetize.co/pcfjrvn3isqukyuyf6i3gffax8kvibgr/",
+          "thumbnail": "https://img.gamemonetize.com/pcfjrvn3isqukyuyf6i3gffax8kvibgr/512x384.jpg"
+        },
+        "28993": {
+          "title": "Cooking Mania",
+          "embedUrl": "https://html5.gamemonetize.co/k6zytamc1xi7j627myi4r6lxap9a7sk7/",
+          "thumbnail": "https://img.gamemonetize.com/k6zytamc1xi7j627myi4r6lxap9a7sk7/512x384.jpg"
+        },
+        "28691": {
+          "title": "Tiny Football Cup",
+          "embedUrl": "https://html5.gamemonetize.co/dzitjk45xlzs7cmsqfo6v6vos58y4jc8/",
+          "thumbnail": "https://img.gamemonetize.com/dzitjk45xlzs7cmsqfo6v6vos58y4jc8/512x384.jpg"
+        },
+        "28484": {
+          "title": "Kitty Jewel Quest",
+          "embedUrl": "https://html5.gamemonetize.co/p68gqeop8iooudh88fl8g5ulxlf600na/",
+          "thumbnail": "https://img.gamemonetize.com/p68gqeop8iooudh88fl8g5ulxlf600na/512x384.jpg"
+        },
+        "28377": {
+          "title": "Tower Defense Zombies",
+          "embedUrl": "https://html5.gamemonetize.co/79erubfx45uiq8ksuuxofo7h79s9b1t0/",
+          "thumbnail": "https://img.gamemonetize.com/79erubfx45uiq8ksuuxofo7h79s9b1t0/512x384.jpg"
+        },
+        "28272": {
+          "title": "Minigolf Clash",
+          "embedUrl": "https://html5.gamemonetize.co/ywl5omork0jwarou5xrxinfjgxphqh6s/",
+          "thumbnail": "https://img.gamemonetize.com/ywl5omork0jwarou5xrxinfjgxphqh6s/512x384.jpg"
+        },
+        "27871": {
+          "title": "Jewel Royal Saga",
+          "embedUrl": "https://html5.gamemonetize.co/vbqcg4l5rad0vei41vbhdgzpy0z6vi6c/",
+          "thumbnail": "https://img.gamemonetize.com/vbqcg4l5rad0vei41vbhdgzpy0z6vi6c/512x384.jpg"
+        },
+        "26921": {
+          "title": "Drag Racing City",
+          "embedUrl": "https://html5.gamemonetize.co/n244ehdb6p6lu74jnbwvmz5zpmu4chdl/",
+          "thumbnail": "https://img.gamemonetize.com/n244ehdb6p6lu74jnbwvmz5zpmu4chdl/512x384.jpg"
+        },
+        "26791": {
+          "title": "Paper Golf",
+          "embedUrl": "https://html5.gamemonetize.co/hrbq74b4ffnf0t4rt9alx9tjc9hjjc8l/",
+          "thumbnail": "https://img.gamemonetize.com/hrbq74b4ffnf0t4rt9alx9tjc9hjjc8l/512x384.jpg"
+        },
+        "26456": {
+          "title": "Clash Of Warriors",
+          "embedUrl": "https://html5.gamemonetize.co/2okw15jdofr8in7o1eijyuh3b5aerdob/",
+          "thumbnail": "https://img.gamemonetize.com/2okw15jdofr8in7o1eijyuh3b5aerdob/512x384.jpg"
+        },
+        "26414": {
+          "title": "Jelly Quest Mania",
+          "embedUrl": "https://html5.gamemonetize.co/vjfiui6o55eabdtykutgthu0rr5whxbl/",
+          "thumbnail": "https://img.gamemonetize.com/vjfiui6o55eabdtykutgthu0rr5whxbl/512x384.jpg"
+        },
+        "25742": {
+          "title": "Wunder Planes",
+          "embedUrl": "https://html5.gamemonetize.co/0n0h33bcfyq6ovxss6l8ermfdfhva0w7/",
+          "thumbnail": "https://img.gamemonetize.com/0n0h33bcfyq6ovxss6l8ermfdfhva0w7/512x384.jpg"
+        },
+        "25650": {
+          "title": "Bubble Pirates Mania",
+          "embedUrl": "https://html5.gamemonetize.co/1r79vwziby9uug3iuxtyjdtmbqd47qfr/",
+          "thumbnail": "https://img.gamemonetize.com/1r79vwziby9uug3iuxtyjdtmbqd47qfr/512x384.jpg"
+        },
+        "25461": {
+          "title": "Questlike: Web",
+          "embedUrl": "https://html5.gamemonetize.co/9nsoyjvpwqbbvi41gvj73lx48ukhurls/",
+          "thumbnail": "https://img.gamemonetize.com/9nsoyjvpwqbbvi41gvj73lx48ukhurls/512x384.jpg"
+        },
+        "25225": {
+          "title": "Jewel Christmas Story",
+          "embedUrl": "https://html5.gamemonetize.co/12fn9qj8i4g24tidgttgjxepa5atx3i5/",
+          "thumbnail": "https://img.gamemonetize.com/12fn9qj8i4g24tidgttgjxepa5atx3i5/512x384.jpg"
+        },
+        "24665": {
+          "title": "Kick Off",
+          "embedUrl": "https://html5.gamemonetize.co/xa6u972vuf7i1xoe352yzjm7lxvhpkve/",
+          "thumbnail": "https://img.gamemonetize.com/xa6u972vuf7i1xoe352yzjm7lxvhpkve/512x384.jpg"
+        },
+        "24478": {
+          "title": "Jewel Halloween",
+          "embedUrl": "https://html5.gamemonetize.co/lu2tb0xkeqjlyzo2uh0u8n1gcowweu3b/",
+          "thumbnail": "https://img.gamemonetize.com/lu2tb0xkeqjlyzo2uh0u8n1gcowweu3b/512x384.jpg"
+        },
+        "24152": {
+          "title": "Solitaire 15in1 Collection",
+          "embedUrl": "https://html5.gamemonetize.co/0l9xkr20b1zbh7x0nbszt3jo5mqyrdba/",
+          "thumbnail": "https://img.gamemonetize.com/0l9xkr20b1zbh7x0nbszt3jo5mqyrdba/512x384.jpg"
+        },
+        "23984": {
+          "title": "Football Champs",
+          "embedUrl": "https://html5.gamemonetize.co/j6hp4zd200pbn92izelxerdfsqfoz8pp/",
+          "thumbnail": "https://img.gamemonetize.com/j6hp4zd200pbn92izelxerdfsqfoz8pp/512x384.jpg"
+        },
+        "23220": {
+          "title": "Ball Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/be899vrqt4n128tuclzr8ccvr914ltx4/",
+          "thumbnail": "https://img.gamemonetize.com/be899vrqt4n128tuclzr8ccvr914ltx4/512x384.jpg"
+        },
+        "22688": {
+          "title": "Spot The Difference: Seasons",
+          "embedUrl": "https://html5.gamemonetize.co/am4msqz31h1hsjok369fs5fw6a7mkaig/",
+          "thumbnail": "https://img.gamemonetize.com/am4msqz31h1hsjok369fs5fw6a7mkaig/512x384.jpg"
+        },
+        "22687": {
+          "title": "Unblock Puzzle",
+          "embedUrl": "https://html5.gamemonetize.co/5jhf9wxj1w7b6u58mr7cnp5xro1i0bdz/",
+          "thumbnail": "https://img.gamemonetize.com/5jhf9wxj1w7b6u58mr7cnp5xro1i0bdz/512x384.jpg"
+        },
+        "21912": {
+          "title": "Drifting Mania",
+          "embedUrl": "https://html5.gamemonetize.co/ztdck81adssy3kpryeo7ldm9zd0oudpz/",
+          "thumbnail": "https://img.gamemonetize.com/ztdck81adssy3kpryeo7ldm9zd0oudpz/512x384.jpg"
+        },
+        "21319": {
+          "title": "Football Superstars 2022",
+          "embedUrl": "https://html5.gamemonetize.co/hf9ixrtzshjxnll9pmtbjct145lqs7oj/",
+          "thumbnail": "https://img.gamemonetize.com/hf9ixrtzshjxnll9pmtbjct145lqs7oj/512x384.jpg"
+        },
+        "20728": {
+          "title": "Laser Adventures",
+          "embedUrl": "https://html5.gamemonetize.co/yc1ta9o4npcpi8ev6z89hgvz9zjh8k0s/",
+          "thumbnail": "https://img.gamemonetize.com/yc1ta9o4npcpi8ev6z89hgvz9zjh8k0s/512x384.jpg"
+        },
+        "20681": {
+          "title": "Puzzle Pieces",
+          "embedUrl": "https://html5.gamemonetize.co/xgn9yb9unobxe0wia9u4yu58e4vuapi8/",
+          "thumbnail": "https://img.gamemonetize.com/xgn9yb9unobxe0wia9u4yu58e4vuapi8/512x384.jpg"
+        },
+        "20675": {
+          "title": "Hamster Pop",
+          "embedUrl": "https://html5.gamemonetize.co/s3qzuxi1onk8vryxnsoim6661cxwwvj7/",
+          "thumbnail": "https://img.gamemonetize.com/s3qzuxi1onk8vryxnsoim6661cxwwvj7/512x384.jpg"
+        },
+        "20647": {
+          "title": "Sushi Rush",
+          "embedUrl": "https://html5.gamemonetize.co/ol4fa3wcwfg8jgqszieblezfjo4ls4fh/",
+          "thumbnail": "https://img.gamemonetize.com/ol4fa3wcwfg8jgqszieblezfjo4ls4fh/512x384.jpg"
+        },
+        "20646": {
+          "title": "Angry Sharks",
+          "embedUrl": "https://html5.gamemonetize.co/3q80p17x8eyytny0m1t5i9f78079vady/",
+          "thumbnail": "https://img.gamemonetize.com/3q80p17x8eyytny0m1t5i9f78079vady/512x384.jpg"
+        },
+        "20606": {
+          "title": "Chess Mania",
+          "embedUrl": "https://html5.gamemonetize.co/gyrx5u4ain4mtjtsraa05r0j9x59ll52/",
+          "thumbnail": "https://img.gamemonetize.com/gyrx5u4ain4mtjtsraa05r0j9x59ll52/512x384.jpg"
+        },
+        "20604": {
+          "title": "Idle Zoo",
+          "embedUrl": "https://html5.gamemonetize.co/pxn08pwbvfe2t8jtajodskp4eufl78ew/",
+          "thumbnail": "https://img.gamemonetize.com/pxn08pwbvfe2t8jtajodskp4eufl78ew/512x384.jpg"
+        },
+        "8786": {
+          "title": "Football Heads",
+          "embedUrl": "https://html5.gamemonetize.co/uzkm3h1igndrx9is3e3mzrhmwfpzv3zp/",
+          "thumbnail": "https://img.gamemonetize.com/uzkm3h1igndrx9is3e3mzrhmwfpzv3zp/512x384.jpg"
+        },
+        "8277": {
+          "title": "Ski King",
+          "embedUrl": "https://html5.gamemonetize.co/220zq0t2ac34j1ghs7gsmtvb8pawcepf/",
+          "thumbnail": "https://img.gamemonetize.com/220zq0t2ac34j1ghs7gsmtvb8pawcepf/512x384.jpg"
+        },
+        "7927": {
+          "title": "Zoo Pinball",
+          "embedUrl": "https://html5.gamemonetize.co/o2w7idb26mx7z59bdt21939w874buo5j/",
+          "thumbnail": "https://img.gamemonetize.com/o2w7idb26mx7z59bdt21939w874buo5j/512x384.jpg"
+        },
+        "7926": {
+          "title": "Poly Art",
+          "embedUrl": "https://html5.gamemonetize.co/sqa6uwdsadi6oshcl7hw2muimq430sxt/",
+          "thumbnail": "https://img.gamemonetize.com/sqa6uwdsadi6oshcl7hw2muimq430sxt/512x384.jpg"
+        },
+        "7363": {
+          "title": "Tower Defense",
+          "embedUrl": "https://html5.gamemonetize.co/72sb39iym3ldmid69aivqfi1jmookexr/",
+          "thumbnail": "https://img.gamemonetize.com/72sb39iym3ldmid69aivqfi1jmookexr/512x384.jpg"
+        },
+        "7296": {
+          "title": "Spot The Difference 2",
+          "embedUrl": "https://html5.gamemonetize.co/uwzzjpjk5btu6sif5ecpnmvq2gju7o12/",
+          "thumbnail": "https://img.gamemonetize.com/uwzzjpjk5btu6sif5ecpnmvq2gju7o12/512x384.jpg"
+        },
+        "7146": {
+          "title": "Farm Hero",
+          "embedUrl": "https://html5.gamemonetize.co/uspskhrgl80gmku7c4hdqyhzopgqn23i/",
+          "thumbnail": "https://img.gamemonetize.com/uspskhrgl80gmku7c4hdqyhzopgqn23i/512x384.jpg"
+        },
+        "6987": {
+          "title": "Mushroom Pop",
+          "embedUrl": "https://html5.gamemonetize.co/c191fq9np7qpi8cwbdz1v1q8721dphg2/",
+          "thumbnail": "https://img.gamemonetize.com/c191fq9np7qpi8cwbdz1v1q8721dphg2/512x384.jpg"
+        },
+        "6863": {
+          "title": "Dangerous Danny",
+          "embedUrl": "https://html5.gamemonetize.co/ed5jvtoe6bq1i4nvxc5r2kl6o5g624ch/",
+          "thumbnail": "https://img.gamemonetize.com/ed5jvtoe6bq1i4nvxc5r2kl6o5g624ch/512x384.jpg"
+        },
+        "6265": {
+          "title": "Mahjong Quest",
+          "embedUrl": "https://html5.gamemonetize.co/zitg3wtlcjfmk8lr3cry3adqhztoe3dd/",
+          "thumbnail": "https://img.gamemonetize.com/zitg3wtlcjfmk8lr3cry3adqhztoe3dd/512x384.jpg"
+        },
+        "6061": {
+          "title": "Zumba Mania",
+          "embedUrl": "https://html5.gamemonetize.co/03yns70hfztn5480rjr3pfrg55z22e23/",
+          "thumbnail": "https://img.gamemonetize.com/03yns70hfztn5480rjr3pfrg55z22e23/512x384.jpg"
+        },
+        "5991": {
+          "title": "Tiny Archer",
+          "embedUrl": "https://html5.gamemonetize.co/7o1ca2i17j5lcl2j39n8o6u3wqlz0jz7/",
+          "thumbnail": "https://img.gamemonetize.com/7o1ca2i17j5lcl2j39n8o6u3wqlz0jz7/512x384.jpg"
+        },
+        "5906": {
+          "title": "Tower Boxer",
+          "embedUrl": "https://html5.gamemonetize.co/yc3leyv83e5i1lmayrenn6q8uwsalmbk/",
+          "thumbnail": "https://img.gamemonetize.com/yc3leyv83e5i1lmayrenn6q8uwsalmbk/512x384.jpg"
+        },
+        "5843": {
+          "title": "Santa Rush",
+          "embedUrl": "https://html5.gamemonetize.co/tun9h3jjz5qy1gbwewg0f37yrsu6hf6a/",
+          "thumbnail": "https://img.gamemonetize.com/tun9h3jjz5qy1gbwewg0f37yrsu6hf6a/512x384.jpg"
+        },
+        "5660": {
+          "title": "Santa's Quest",
+          "embedUrl": "https://html5.gamemonetize.co/wrjce2xfyoow20vra8p2nqnke9int6np/",
+          "thumbnail": "https://img.gamemonetize.com/wrjce2xfyoow20vra8p2nqnke9int6np/512x384.jpg"
+        },
+        "5549": {
+          "title": "The Sea Rush",
+          "embedUrl": "https://html5.gamemonetize.co/p9vorzl2eiw1reh6heiqo2f556f14k2u/",
+          "thumbnail": "https://img.gamemonetize.com/p9vorzl2eiw1reh6heiqo2f556f14k2u/512x384.jpg"
+        },
+        "5461": {
+          "title": "Jewel Dash",
+          "embedUrl": "https://html5.gamemonetize.co/2ayu91ql4r4mmrqzl6ems41cpdlx6gx8/",
+          "thumbnail": "https://img.gamemonetize.com/2ayu91ql4r4mmrqzl6ems41cpdlx6gx8/512x384.jpg"
+        },
+        "5425": {
+          "title": "Footballio",
+          "embedUrl": "https://html5.gamemonetize.co/kdtqalqmguplh3c2g3yqtipt4l69bb9v/",
+          "thumbnail": "https://img.gamemonetize.com/kdtqalqmguplh3c2g3yqtipt4l69bb9v/512x384.jpg"
+        },
+        "5290": {
+          "title": "Solitaire 0 - 21",
+          "embedUrl": "https://html5.gamemonetize.co/5jxnmbjio7qcczp555ojetr7mdjzf8zk/",
+          "thumbnail": "https://img.gamemonetize.com/5jxnmbjio7qcczp555ojetr7mdjzf8zk/512x384.jpg"
+        },
+        "4892": {
+          "title": "Solitaire TriPeaks Garden",
+          "embedUrl": "https://html5.gamemonetize.co/6ki8rep3xzdp3x4gzvrjfctkifvabqah/",
+          "thumbnail": "https://img.gamemonetize.com/6ki8rep3xzdp3x4gzvrjfctkifvabqah/512x384.jpg"
+        },
+        "4706": {
+          "title": "Tennis Open 2020",
+          "embedUrl": "https://html5.gamemonetize.co/gmshez2xwlogww1fxt937kludaiv38wj/",
+          "thumbnail": "https://img.gamemonetize.com/gmshez2xwlogww1fxt937kludaiv38wj/512x384.jpg"
+        },
+        "4477": {
+          "title": "Minesweeper Mania",
+          "embedUrl": "https://html5.gamemonetize.co/hnr8pvzlgfjg0denw1smmnz3q4hdkvd1/",
+          "thumbnail": "https://img.gamemonetize.com/hnr8pvzlgfjg0denw1smmnz3q4hdkvd1/512x384.jpg"
+        },
+        "4253": {
+          "title": "Fishing.io",
+          "embedUrl": "https://html5.gamemonetize.co/uidafwn0gzn6uh0i9bnzt7106r5206ev/",
+          "thumbnail": "https://img.gamemonetize.com/uidafwn0gzn6uh0i9bnzt7106r5206ev/512x384.jpg"
+        },
+        "3720": {
+          "title": "Tic Tac Toe  Mania",
+          "embedUrl": "https://html5.gamemonetize.co/i9nllkb65vmjsret46oqbn4oex8cbzwu/",
+          "thumbnail": "https://img.gamemonetize.com/i9nllkb65vmjsret46oqbn4oex8cbzwu/512x384.jpg"
+        },
+        "3578": {
+          "title": "Run Ninja",
+          "embedUrl": "https://html5.gamemonetize.co/tlihaqorx6gna23044ahjq8gaailb5p5/",
+          "thumbnail": "https://img.gamemonetize.com/tlihaqorx6gna23044ahjq8gaailb5p5/512x384.jpg"
+        },
+        "3451": {
+          "title": "Soldiers Fury",
+          "embedUrl": "https://html5.gamemonetize.co/kqdchh9mub6yvrii8xvqc7hmg8pb6cxq/",
+          "thumbnail": "https://img.gamemonetize.com/kqdchh9mub6yvrii8xvqc7hmg8pb6cxq/512x384.jpg"
+        },
+        "3377": {
+          "title": "10x10 Farming",
+          "embedUrl": "https://html5.gamemonetize.co/y5dw55n0dzsbk6pi0wu4xpp0uggou61t/",
+          "thumbnail": "https://img.gamemonetize.com/y5dw55n0dzsbk6pi0wu4xpp0uggou61t/512x384.jpg"
+        },
+        "3350": {
+          "title": "Pool: 8 Ball Mania",
+          "embedUrl": "https://html5.gamemonetize.co/m0s60st8dq9bkm2z6nviazrju0zl0w8m/",
+          "thumbnail": "https://img.gamemonetize.com/m0s60st8dq9bkm2z6nviazrju0zl0w8m/512x384.jpg"
+        },
+        "3289": {
+          "title": "Cross That Road",
+          "embedUrl": "https://html5.gamemonetize.co/a5yy39hn4vl80u2ef2aohthevqj2zou9/",
+          "thumbnail": "https://img.gamemonetize.com/a5yy39hn4vl80u2ef2aohthevqj2zou9/512x384.jpg"
+        },
+        "2986": {
+          "title": "Star Battles",
+          "embedUrl": "https://html5.gamemonetize.co/buyk5fgznwsi4ijrovufnv3snrh9clbn/",
+          "thumbnail": "https://img.gamemonetize.com/buyk5fgznwsi4ijrovufnv3snrh9clbn/512x384.jpg"
+        },
+        "2859": {
+          "title": "Battleships Armada",
+          "embedUrl": "https://html5.gamemonetize.co/qwe6qwnpxuypeqs7fbr8ogaf0uwgba31/",
+          "thumbnail": "https://img.gamemonetize.com/qwe6qwnpxuypeqs7fbr8ogaf0uwgba31/512x384.jpg"
+        }
+      }
+    },
+    {
+      "company": "Playtouch",
+      "source": "Playtouch",
+      "ids": [
+        "24595",
+        "24578",
+        "24556",
+        "24555",
+        "24554",
+        "24532",
+        "24530",
+        "24499",
+        "24497",
+        "24424",
+        "24421",
+        "24380",
+        "24378",
+        "24376",
+        "24335",
+        "24246",
+        "24245",
+        "24244",
+        "24243",
+        "24242",
+        "24220",
+        "24219",
+        "24184",
+        "24183",
+        "24182",
+        "24140",
+        "24139",
+        "24056",
+        "24053",
+        "24002",
+        "24001",
+        "24000",
+        "23977",
+        "23933",
+        "23904",
+        "23903",
+        "23874",
+        "23871"
+      ],
+      "approvedResources": {
+        "24595": {
+          "title": "Color Spin",
+          "embedUrl": "https://html5.gamemonetize.co/zsrr7gguyiarerc9gsh7xnq8t4z1x5ko/",
+          "thumbnail": "https://img.gamemonetize.com/zsrr7gguyiarerc9gsh7xnq8t4z1x5ko/512x384.jpg"
+        },
+        "24578": {
+          "title": "Drop n Merge Blocks",
+          "embedUrl": "https://html5.gamemonetize.co/23171jps2i9ugqx3o70u9gmjpfuy04gv/",
+          "thumbnail": "https://img.gamemonetize.com/23171jps2i9ugqx3o70u9gmjpfuy04gv/512x384.jpg"
+        },
+        "24556": {
+          "title": "Conquer the galaxy",
+          "embedUrl": "https://html5.gamemonetize.co/z8wsumd3ttmiazs4m2kva4iiifj3jl8o/",
+          "thumbnail": "https://img.gamemonetize.com/z8wsumd3ttmiazs4m2kva4iiifj3jl8o/512x384.jpg"
+        },
+        "24555": {
+          "title": "Connect Two : Link the Fish",
+          "embedUrl": "https://html5.gamemonetize.co/ilhekgj43tg22mqljwpgb2eq8loot693/",
+          "thumbnail": "https://img.gamemonetize.com/ilhekgj43tg22mqljwpgb2eq8loot693/512x384.jpg"
+        },
+        "24554": {
+          "title": "Connect Animals : Onet Kyodai",
+          "embedUrl": "https://html5.gamemonetize.co/ehr4q6ui429gus82h2b8f85ob3kt0u5a/",
+          "thumbnail": "https://img.gamemonetize.com/ehr4q6ui429gus82h2b8f85ob3kt0u5a/512x384.jpg"
+        },
+        "24532": {
+          "title": "Cross Road Exit",
+          "embedUrl": "https://html5.gamemonetize.co/udaq0gc2p5k1wnqa2z99f4xm2i1tmaq5/",
+          "thumbnail": "https://img.gamemonetize.com/udaq0gc2p5k1wnqa2z99f4xm2i1tmaq5/512x384.jpg"
+        },
+        "24530": {
+          "title": "Constellation Energy Lines",
+          "embedUrl": "https://html5.gamemonetize.co/n5ybcic114lz422rgro555cbz3v8fig2/",
+          "thumbnail": "https://img.gamemonetize.com/n5ybcic114lz422rgro555cbz3v8fig2/512x384.jpg"
+        },
+        "24499": {
+          "title": "Do not touch the border",
+          "embedUrl": "https://html5.gamemonetize.co/2ale8s71ukt8zaiz9ttgauig6vwgwizy/",
+          "thumbnail": "https://img.gamemonetize.com/2ale8s71ukt8zaiz9ttgauig6vwgwizy/512x384.jpg"
+        },
+        "24497": {
+          "title": "Do not touch my fish",
+          "embedUrl": "https://html5.gamemonetize.co/sapzyo8ginkfvnm7rihd1l1c9v7uterj/",
+          "thumbnail": "https://img.gamemonetize.com/sapzyo8ginkfvnm7rihd1l1c9v7uterj/512x384.jpg"
+        },
+        "24424": {
+          "title": "Classic Tic Tac Toe",
+          "embedUrl": "https://html5.gamemonetize.co/ne1qn0au42pn59w1ph7ezk8q0mflgmaf/",
+          "thumbnail": "https://img.gamemonetize.com/ne1qn0au42pn59w1ph7ezk8q0mflgmaf/512x384.jpg"
+        },
+        "24421": {
+          "title": "Choo Choo Connect",
+          "embedUrl": "https://html5.gamemonetize.co/mf30q3cpmg0znr6ilgwquk2uyk5xe4fc/",
+          "thumbnail": "https://img.gamemonetize.com/mf30q3cpmg0znr6ilgwquk2uyk5xe4fc/512x384.jpg"
+        },
+        "24380": {
+          "title": "Color Quest : Colors Game",
+          "embedUrl": "https://html5.gamemonetize.co/s4zf12kju91c1i698ldpsk5if7q25h5k/",
+          "thumbnail": "https://img.gamemonetize.com/s4zf12kju91c1i698ldpsk5if7q25h5k/512x384.jpg"
+        },
+        "24378": {
+          "title": "Fill In Puzzles",
+          "embedUrl": "https://html5.gamemonetize.co/7qq5uncnusfz6qz2j6i4u9jo3jmh09pj/",
+          "thumbnail": "https://img.gamemonetize.com/7qq5uncnusfz6qz2j6i4u9jo3jmh09pj/512x384.jpg"
+        },
+        "24376": {
+          "title": "Eat the circles : colors game",
+          "embedUrl": "https://html5.gamemonetize.co/e3l1wkmob8ug3reqxz3u7trdgymrbpvi/",
+          "thumbnail": "https://img.gamemonetize.com/e3l1wkmob8ug3reqxz3u7trdgymrbpvi/512x384.jpg"
+        },
+        "24335": {
+          "title": "EXIT : unblock red wood block",
+          "embedUrl": "https://html5.gamemonetize.co/x43jdi1pjljh5coq0ny5noqo1rmzje4i/",
+          "thumbnail": "https://img.gamemonetize.com/x43jdi1pjljh5coq0ny5noqo1rmzje4i/512x384.jpg"
+        },
+        "24246": {
+          "title": "Chain reaction",
+          "embedUrl": "https://html5.gamemonetize.co/0udj9auh8qpqe8optd34kig4w4tn66mj/",
+          "thumbnail": "https://img.gamemonetize.com/0udj9auh8qpqe8optd34kig4w4tn66mj/512x384.jpg"
+        },
+        "24245": {
+          "title": "Bubble Shooter : Colors Game",
+          "embedUrl": "https://html5.gamemonetize.co/kykbyxskojfrs7e4iaqzevo1wejk1lhi/",
+          "thumbnail": "https://img.gamemonetize.com/kykbyxskojfrs7e4iaqzevo1wejk1lhi/512x384.jpg"
+        },
+        "24244": {
+          "title": "Brain Teasers : Colors Game",
+          "embedUrl": "https://html5.gamemonetize.co/etsdewosj5aqskfvahyc521pppi5e6hj/",
+          "thumbnail": "https://img.gamemonetize.com/etsdewosj5aqskfvahyc521pppi5e6hj/512x384.jpg"
+        },
+        "24243": {
+          "title": "Alchemist puzzle game",
+          "embedUrl": "https://html5.gamemonetize.co/lx6ttsex3poqjab6n04ftr5024794ew7/",
+          "thumbnail": "https://img.gamemonetize.com/lx6ttsex3poqjab6n04ftr5024794ew7/512x384.jpg"
+        },
+        "24242": {
+          "title": "Brain Teasers : Avoid Crash",
+          "embedUrl": "https://html5.gamemonetize.co/4kgl3ufpbla47w65fkx2h7r7rli9pjh0/",
+          "thumbnail": "https://img.gamemonetize.com/4kgl3ufpbla47w65fkx2h7r7rli9pjh0/512x384.jpg"
+        },
+        "24220": {
+          "title": "Glow Explosions !",
+          "embedUrl": "https://html5.gamemonetize.co/nfimrwcd2w5rx8y0n8iql4ih3l4ne6ok/",
+          "thumbnail": "https://img.gamemonetize.com/nfimrwcd2w5rx8y0n8iql4ih3l4ne6ok/512x384.jpg"
+        },
+        "24219": {
+          "title": "One More Loop",
+          "embedUrl": "https://html5.gamemonetize.co/bmzhmzacu7qcetnqkwuwh2ubxavwb80k/",
+          "thumbnail": "https://img.gamemonetize.com/bmzhmzacu7qcetnqkwuwh2ubxavwb80k/512x384.jpg"
+        },
+        "24184": {
+          "title": "Cars Traffic King",
+          "embedUrl": "https://html5.gamemonetize.co/ky4bdyu5ekok7hbmui4zr7ewsjvdwz8l/",
+          "thumbnail": "https://img.gamemonetize.com/ky4bdyu5ekok7hbmui4zr7ewsjvdwz8l/512x384.jpg"
+        },
+        "24183": {
+          "title": "Candy Breaker",
+          "embedUrl": "https://html5.gamemonetize.co/a1xgde9usdnluwc79g31vvdz3osv3g5l/",
+          "thumbnail": "https://img.gamemonetize.com/a1xgde9usdnluwc79g31vvdz3osv3g5l/512x384.jpg"
+        },
+        "24182": {
+          "title": "Captain Hangman",
+          "embedUrl": "https://html5.gamemonetize.co/dwa2gk82m74p1uf7b6or32swadfh668l/",
+          "thumbnail": "https://img.gamemonetize.com/dwa2gk82m74p1uf7b6or32swadfh668l/512x384.jpg"
+        },
+        "24140": {
+          "title": "Brick Breaker Galaxy Defense",
+          "embedUrl": "https://html5.gamemonetize.co/na0mxut5kaxe3dnljraf8pq7kz6xjwkf/",
+          "thumbnail": "https://img.gamemonetize.com/na0mxut5kaxe3dnljraf8pq7kz6xjwkf/512x384.jpg"
+        },
+        "24139": {
+          "title": "Brick Breaker : The Ultimate Challenge",
+          "embedUrl": "https://html5.gamemonetize.co/cffr72pu7mlx9a4x0qe2prw11peykfn7/",
+          "thumbnail": "https://img.gamemonetize.com/cffr72pu7mlx9a4x0qe2prw11peykfn7/512x384.jpg"
+        },
+        "24056": {
+          "title": "Fill In the holes",
+          "embedUrl": "https://html5.gamemonetize.co/rncw0nw0zsphlmsp4mt3h2kdytzhtj4v/",
+          "thumbnail": "https://img.gamemonetize.com/rncw0nw0zsphlmsp4mt3h2kdytzhtj4v/512x384.jpg"
+        },
+        "24053": {
+          "title": "Fire Glow",
+          "embedUrl": "https://html5.gamemonetize.co/wtdluh8rduj40g8xsa3gcogslooh0xn7/",
+          "thumbnail": "https://img.gamemonetize.com/wtdluh8rduj40g8xsa3gcogslooh0xn7/512x384.jpg"
+        },
+        "24002": {
+          "title": "Glow Blast !",
+          "embedUrl": "https://html5.gamemonetize.co/ydau2m96beapjawel486408fsttkal00/",
+          "thumbnail": "https://img.gamemonetize.com/ydau2m96beapjawel486408fsttkal00/512x384.jpg"
+        },
+        "24001": {
+          "title": "Flower Blast",
+          "embedUrl": "https://html5.gamemonetize.co/ssm71b1bk33le1q1mg11ycknwzwbqplh/",
+          "thumbnail": "https://img.gamemonetize.com/ssm71b1bk33le1q1mg11ycknwzwbqplh/512x384.jpg"
+        },
+        "24000": {
+          "title": "Follow the Path : Colors Game",
+          "embedUrl": "https://html5.gamemonetize.co/16wlujrpphnmaymi7l0e2v722ixjatm0/",
+          "thumbnail": "https://img.gamemonetize.com/16wlujrpphnmaymi7l0e2v722ixjatm0/512x384.jpg"
+        },
+        "23977": {
+          "title": "Genius Memory",
+          "embedUrl": "https://html5.gamemonetize.co/kqor4xko97dhbqbvmsl55wmvvh3d7stu/",
+          "thumbnail": "https://img.gamemonetize.com/kqor4xko97dhbqbvmsl55wmvvh3d7stu/512x384.jpg"
+        },
+        "23933": {
+          "title": "Happy farm : make water pipes",
+          "embedUrl": "https://html5.gamemonetize.co/dfo9qhsna6l6avg431qtb7f1ekh9c9cq/",
+          "thumbnail": "https://img.gamemonetize.com/dfo9qhsna6l6avg431qtb7f1ekh9c9cq/512x384.jpg"
+        },
+        "23904": {
+          "title": "Happy Farm : The crop",
+          "embedUrl": "https://html5.gamemonetize.co/u8vgs0u0fe6k3ipz1qs7yn2nsxwyzs8h/",
+          "thumbnail": "https://img.gamemonetize.com/u8vgs0u0fe6k3ipz1qs7yn2nsxwyzs8h/512x384.jpg"
+        },
+        "23903": {
+          "title": "Happy Farm : Tiles Match",
+          "embedUrl": "https://html5.gamemonetize.co/dhkx5cpf5jay1nh5m8rptiv4gb6acggn/",
+          "thumbnail": "https://img.gamemonetize.com/dhkx5cpf5jay1nh5m8rptiv4gb6acggn/512x384.jpg"
+        },
+        "23874": {
+          "title": "Hyper Swiper",
+          "embedUrl": "https://html5.gamemonetize.co/uoccj6rjv004gczk2we9fbuwykvdk0fj/",
+          "thumbnail": "https://img.gamemonetize.com/uoccj6rjv004gczk2we9fbuwykvdk0fj/512x384.jpg"
+        },
+        "23871": {
+          "title": "Ikki Samurai Jump",
+          "embedUrl": "https://html5.gamemonetize.co/b2ohv9cr8k6vnhm0iwzqpdqdy1ue3pni/",
+          "thumbnail": "https://img.gamemonetize.com/b2ohv9cr8k6vnhm0iwzqpdqdy1ue3pni/512x384.jpg"
+        }
+      }
+    }
+  ],
+  "minimumTotal": 200,
+  "selectionNotes": "Curated official studio feeds. Excludes obvious franchise/brand lookalikes, logo games, gambling titles, and duplicate-looking releases. Only the listed official game IDs are eligible; new feed games require review."
+}

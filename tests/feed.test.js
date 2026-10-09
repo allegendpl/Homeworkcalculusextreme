@@ -36,3 +36,39 @@ test('missing config, HTTP, malformed, empty, oversized, collision errors never 
   ];
   for (const opts of cases) { await assert.rejects(importFeed({ env, output, ...opts }), error => { assert.ok(!error.message.includes('secret-key-in-transport-url') && !error.message.includes('private body')); return true; }); assert.equal(await fs.readFile(output, 'utf8'), before); }
 });
+
+test('public official adapter imports only pinned reviewed IDs without sending credentials', async t => {
+  const { importPublicFeed } = require('../scripts/import-feed.js');
+  const output = await fixture(t);
+  const row = { id: 'reviewed-1', title: 'Official Test', description: 'Match &amp; collect.', instructions: 'Tap to play', url: 'https://html5.gamemonetize.co/test-official/', thumb: 'https://img.gamemonetize.com/test-official/512x384.jpg', category: 'Puzzles', tags: 'Logic, Casual' };
+  const selection = { minimumTotal: 6, studios: [{ company: 'TestStudio', source: 'Test Studio', ids: [row.id], approvedResources: { [row.id]: { title: row.title, embedUrl: row.url, thumbnail: row.thumb } } }] };
+  const fetchFn = async (url, init) => {
+    const parsed = new URL(url); assert.equal(parsed.hostname, 'rss.gamemonetize.com'); assert.equal(parsed.searchParams.get('company'), 'TestStudio');
+    assert.equal(init.headers.Authorization, undefined); assert.equal(init.redirect, 'error');
+    return new Response(JSON.stringify([row, { ...row, id: 'unreviewed', title: 'Never automatically approve this' }]));
+  };
+  const result = await importPublicFeed({ output, selection, fetchFn, now: '2026-10-09T00:00:00Z' });
+  assert.equal(result.imported, 1); assert.equal(result.total, 6);
+  const catalog = JSON.parse(await fs.readFile(output, 'utf8')); const imported = catalog.at(-1);
+  assert.equal(imported.title, row.title); assert.equal(imported.category, 'Puzzle'); assert.equal(imported.description, 'Match & collect.');
+  assert.equal(imported.embedUrl, row.url); assert.equal(imported.thumbnail, row.thumb);
+  assert.match(imported.source, /GameMonetize — Test Studio/); assert.match(imported.license, /not open-source/);
+  await importPublicFeed({ output, selection, fetchFn, now: '2027-01-01T00:00:00Z' });
+  assert.equal(JSON.parse(await fs.readFile(output, 'utf8')).at(-1).addedAt, new Date('2026-10-09T00:00:00Z').toISOString());
+});
+test('public refresh rejects changed resources, bad hosts, and under-200 results without erasing catalog', async t => {
+  const { importPublicFeed } = require('../scripts/import-feed.js');
+  const output = await fixture(t), before = await fs.readFile(output, 'utf8');
+  const row = { id: '1', title: 'Reviewed', description: 'Description', instructions: 'Tap', url: 'https://html5.gamemonetize.co/reviewed/', thumb: 'https://img.gamemonetize.com/reviewed/512x384.jpg', category: 'Arcade', tags: '' };
+  const studio = { company: 'Test', source: 'Test', ids: ['1'], approvedResources: { 1: { title: row.title, embedUrl: row.url, thumbnail: row.thumb } } };
+  for (const [candidate, minimum, overrideStudio] of [
+    [{ ...row, url: 'https://html5.gamemonetize.co/changed/' }, 6],
+    [{ ...row, title: 'Unauthorized New Content' }, 6],
+    [row, 200],
+    [null, 200],
+    [{ ...row, thumb: 'https://unapproved.example.test/art.jpg' }, 6, { ...studio, approvedResources: { 1: { title: row.title, embedUrl: row.url, thumbnail: 'https://unapproved.example.test/art.jpg' } } }]
+  ]) {
+    await assert.rejects(importPublicFeed({ output, selection: { minimumTotal: minimum, studios: [overrideStudio || studio] }, fetchFn: async () => new Response(JSON.stringify(candidate ? [candidate] : [])) }));
+    assert.equal(await fs.readFile(output, 'utf8'), before);
+  }
+});

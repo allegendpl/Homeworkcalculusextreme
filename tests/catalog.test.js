@@ -77,3 +77,23 @@ test('5 and 5,000 entries: correct pagination, filtering, and measured timing', 
     t.diagnostic(`${size} entries: filter + sort ${elapsed.toFixed(2)} ms (Node, not Chromebook/browser timing)`);
   }
 });
+
+test('delivered collection has at least 200 distinct reviewed games and five local starters', () => {
+  const selection = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/feed-selection.json'), 'utf8'));
+  assert.ok(games.length >= 200, `Only ${games.length} catalog entries`);
+  assert.equal(new Set(games.map(g => g.embedUrl)).size, games.length);
+  assert.equal(new Set(games.map(g => g.title.toLowerCase())).size, games.length);
+  assert.equal(games.filter(g => g.embedUrl.startsWith('games/')).length, 5);
+  const approved = Object.values(selection.studios.flatMap(s => Object.values(s.approvedResources))).map(g => g.embedUrl);
+  for (const game of games.filter(g => g.embedUrl.startsWith('https:'))) {
+    assert.ok(approved.includes(game.embedUrl));
+    assert.match(game.source, /^GameMonetize — /); assert.match(game.license, /https:\/\/gamemonetize.com\/faq/);
+    assert.equal(new URL(game.thumbnail).hostname, 'img.gamemonetize.com');
+    assert.equal(new URL(game.embedUrl).hostname, 'html5.gamemonetize.co');
+    assert.ok(game.controls.trim().length > 3);
+    assert.ok(!/minecraft|among us|subway surfers|angry birds|plants vs|cuphead|granny|\bslope\b|logo memory|casino|plinko/i.test(game.title));
+  }
+  let visited = [];
+  for (let offset = 0; offset < games.length; offset += 48) visited.push(...app.pageSlice(games, offset));
+  assert.equal(visited.length, games.length);
+});

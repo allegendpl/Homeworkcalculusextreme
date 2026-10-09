@@ -41,9 +41,9 @@ Open `http://localhost:3000/`. For a project-site test, serve the containing dir
 - Reserved 160×600 left/right ad rails from 1280px, 300×600 from 1840px, and a 320×100 slot below 1280px. No fake creatives.
 - About, Privacy, DMCA/removal, Contact, 404, manifest, icons, `.nojekyll`, and a generated sitemap.
 
-### Five legitimate starter games
+### 204 games: five local starters + 199 official publisher embeds
 
-We intentionally do **not** invent 400 licensed entries. The portal works now with:
+The collection now has **204 distinct game entries and embed URLs**. Five local games are:
 
 | Game | Author/source | Rights |
 | --- | --- | --- |
@@ -58,7 +58,32 @@ We intentionally do **not** invent 400 licensed entries. The portal works now wi
 licenses the original mini-games. `thumbnails/LICENSE.txt` licenses the five original SVG
 illustrations, which depict actual boards/mechanics, not emojis or commercial branding.
 
-All starter games are bundled locally; no hotlinked unauthorized demos or publisher logos.
+All five starter games are bundled locally. The additional **199 games** come from
+GameMonetize’s official public publisher feeds for **QkyGames, Inlogic Software s.r.o.,
+and Playtouch**. GameMonetize explicitly permits publisher embedding in its
+[FAQ](https://gamemonetize.com/faq) and provides the official
+[JSON/RSS feed builder](https://gamemonetize.com/rss-builder). These games are **not MIT**:
+they remain copyrighted and use the provider’s hosted embeds, branding, SDKs, and ads.
+No publisher game files or artwork are committed; thumbnails use the official image URLs.
+See `data/SOURCES.md` for evidence and `data/feed-selection.json` for the reviewed allowlist.
+
+Refresh this curated public collection, **no API key required**:
+
+```sh
+node scripts/import-feed.js --gamemonetize-public
+node scripts/make-sitemap.js
+node --test tests/*.test.js
+```
+
+The adapter uses only reviewed game IDs and verifies their pinned titles, embed URLs,
+and thumbnail URLs. Newly published games are not automatically approved. Missing titles
+are delisted; updates that would leave fewer than 200 total entries fail rather than
+silently shrink the collection. Review and extend the allowlist if that happens. Changed
+resource URLs or titles require another review. Register this site in a GameMonetize
+publisher account to arrange revenue share; public-feed access does not configure payouts.
+Permission to embed is not permission to download/repackage the games or remove ads.
+All 199 selected thumbnail images decoded and all embeds returned HTML when checked;
+that is **not** a completed gameplay or downstream-asset copyright audit.
 The interface accepts 5 to 5,000+ entries and renders at most 48 new cards per Load more.
 For additional open-source games, audit **code AND artwork/audio** licenses before copying
 files, preserve all notices, and credit the author on the player. For written permissions,
@@ -79,9 +104,9 @@ keep the permission record. Never scrape other “unblocked” portals or copy c
 
    Never put credentials in HTML, browser JS, committed config, chat, or examples. A private `.env` file is ignored, but is **not automatically loaded** by these scripts; use your environment/secrets manager (or Node's `--env-file` support with a private file).
 5. In GitHub, open **Settings → Secrets and variables → Actions → New repository secret**. Add **FEED_URL** and **FEED_KEY** (exact names).
-6. Enable Actions. `.github/workflows/update-games.yml` runs Mondays at 06:23 UTC and from **Actions → Update licensed games → Run workflow**. It checks out main, imports, regenerates the sitemap, tests, and commits `data/games.json` and `sitemap.xml` to **main**. The job has `contents: write`. Because `GITHUB_TOKEN` commits do not reliably retrigger Pages, the workflow explicitly requests a branch-based Pages rebuild with `pages: write`. Enable Pages first; that final step fails if Pages is not configured or policies disallow the request. Branch protections may require a reviewed PR instead; adjust the workflow to your governance rather than disabling protection.
+6. Enable Actions. For the already-configured public catalog, no secrets are necessary. To switch to your private approved feed, set both secrets and adapt the mapping as described above. `.github/workflows/update-games.yml` runs Mondays at 06:23 UTC and from **Actions → Update licensed games → Run workflow**. It checks out main, imports, regenerates the sitemap, tests, and commits `data/games.json` and `sitemap.xml` to **main**. The job has `contents: write`. Because `GITHUB_TOKEN` commits do not reliably retrigger Pages, the workflow explicitly requests a branch-based Pages rebuild with `pages: write`. Enable Pages first; that final step fails if Pages is not configured or policies disallow the request. Branch protections may require a reviewed PR instead; adjust the workflow to your governance rather than disabling protection.
 
-Missing secrets produce a clear failure and leave the catalog intact. HTTP/auth errors,
+The workflow uses the reviewed public GameMonetize feed when both secrets are absent. If you set either private-feed secret, it uses the configurable private adapter instead and requires both secrets. The default command without `--gamemonetize-public` still fails clearly when credentials are missing and leaves the catalog intact. HTTP/auth errors,
 invalid JSON, duplicate IDs, malformed credits/URLs, empty feeds, redirect attempts, and
 timeouts fail closed. Keys, provider URLs, and raw provider errors are not logged. Maximum
 feed response: **20 MiB**, **20,000 entries**, **45 seconds** request timeout. Output is
@@ -126,7 +151,7 @@ hotlink licensed feed thumbnails instead of committing hundreds of images.
 Paste your real approved publisher integration there and render into the passed visible
 `.ad-slot` elements, identified by `data-slot="left|right|mobile"`. Load the SDK once;
 remove `.ad-empty` only after receiving a real creative. Follow the network's slot sizes,
-refresh rules, and policies. The template has no working network tags or invented revenue.
+refresh rules, and policies. The ad rails have no working network tags or invented revenue. Official publisher games retain their own in-game ads, which are separate from portal rail integration.
 
 The function runs only after explicit “Accept ads”; “Decline” makes no portal ad requests.
 The footer's Privacy settings reopens the choice; withdrawing consent reloads to stop
@@ -139,7 +164,7 @@ Imported external game iframes are gated by the advertising choice and an explic
 click because their official publisher SDKs may show ads. Do not remove those SDKs or
 break revenue share. A blanket decline cannot technically suppress ads inside an already
 loaded cross-origin game: reload or leave the page to unload it. Feed thumbnails still
-contact their licensed host while browsing. No trackers are shipped by default.
+contact their licensed host while browsing. No portal analytics or rail-ad SDK is shipped. Publisher game embeds include their own SDK and ads; licensed thumbnails load from img.gamemonetize.com while browsing.
 
 ## Player, storage, accessibility, and install behavior
 

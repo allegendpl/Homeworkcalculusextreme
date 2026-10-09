@@ -45,3 +45,14 @@ test('generated sitemap matches catalog and exact Pages base', () => {
 test('workflow uses repository secrets and main branch, never hardcoded credentials', () => {
   const workflow = read('.github/workflows/update-games.yml'); assert.match(workflow, /secrets.FEED_URL/); assert.match(workflow, /secrets.FEED_KEY/); assert.match(workflow, /workflow_dispatch/); assert.match(workflow, /schedule/); assert.match(workflow, /git push origin HEAD:main/);
 });
+
+test('requested version has no PolyTrack or Retro Bowl external tabs', () => {
+  for (const file of ['index.html', 'about.html', 'privacy.html', 'README.md', 'data/SOURCES.md']) {
+    const content = read(file);
+    assert.ok(!/polytrack|retro bowl|retro-bowl|official-picks/i.test(content), file);
+  }
+  assert.ok(!/official-pick/.test(read('css/style.css')));
+  const games = JSON.parse(read('data/games.json'));
+  assert.equal(games.length, 204);
+  assert.ok(!games.some(game => /^(polytrack|retro bowl)$/i.test(game.title)));
+});

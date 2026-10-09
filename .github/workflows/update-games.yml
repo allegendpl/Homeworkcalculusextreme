@@ -25,7 +25,12 @@ jobs:
         env:
           FEED_URL: ${{ secrets.FEED_URL }}
           FEED_KEY: ${{ secrets.FEED_KEY }}
-        run: node scripts/import-feed.js
+        run: |
+          if [ -n "$FEED_URL" ] || [ -n "$FEED_KEY" ]; then
+            node scripts/import-feed.js
+          else
+            node scripts/import-feed.js --gamemonetize-public
+          fi
       - name: Generate sitemap and verify catalog
         run: |
           node scripts/make-sitemap.js
