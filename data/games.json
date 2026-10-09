@@ -1,0 +1,94 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "category": "Puzzle",
+    "tags": [
+      "numbers",
+      "logic",
+      "tiles"
+    ],
+    "description": "Slide and merge equal tiles. Plan your moves and reach the 2048 tile.",
+    "controls": "Arrow keys, WASD, or swipe on the board. R restarts.",
+    "thumbnail": "thumbnails/2048.svg",
+    "embedUrl": "games/2048/index.html",
+    "source": "Gabriele Cirulli",
+    "license": "MIT \u2014 Gabriele Cirulli (2014)",
+    "isNew": false,
+    "addedAt": "2026-10-09T00:00:00Z",
+    "note": "Touch and keyboard supported."
+  },
+  {
+    "id": "neon-snake",
+    "title": "Neon Snake",
+    "category": "Arcade",
+    "tags": [
+      "snake",
+      "reflex",
+      "retro"
+    ],
+    "description": "Collect glowing sparks, grow your trail, and keep clear of the walls.",
+    "controls": "Arrow keys / WASD or on-screen direction buttons. Pause to take a break.",
+    "thumbnail": "thumbnails/neon-snake.svg",
+    "embedUrl": "games/original/index.html?game=neon-snake",
+    "source": "ExtremeCalculus contributors",
+    "license": "MIT \u2014 ExtremeCalculus contributors (2026)",
+    "isNew": true,
+    "addedAt": "2026-10-09T00:00:00Z",
+    "note": "Keyboard or on-screen controls."
+  },
+  {
+    "id": "prism-breaker",
+    "title": "Prism Breaker",
+    "category": "Arcade",
+    "tags": [
+      "paddle",
+      "reflex",
+      "bricks"
+    ],
+    "description": "Bounce through a colorful wall of prisms. One paddle, one ball, a fresh challenge.",
+    "controls": "Move with mouse, touch, or Left / Right (A / D).",
+    "thumbnail": "thumbnails/prism-breaker.svg",
+    "embedUrl": "games/original/index.html?game=prism-breaker",
+    "source": "ExtremeCalculus contributors",
+    "license": "MIT \u2014 ExtremeCalculus contributors (2026)",
+    "isNew": true,
+    "addedAt": "2026-10-09T00:00:00Z"
+  },
+  {
+    "id": "memory-mosaic",
+    "title": "Memory Mosaic",
+    "category": "Puzzle",
+    "tags": [
+      "memory",
+      "matching",
+      "casual"
+    ],
+    "description": "Reveal a mosaic of geometric shapes and find all eight matching pairs.",
+    "controls": "Click or tap tiles; use Tab and Enter with a keyboard.",
+    "thumbnail": "thumbnails/memory-mosaic.svg",
+    "embedUrl": "games/original/index.html?game=memory-mosaic",
+    "source": "ExtremeCalculus contributors",
+    "license": "MIT \u2014 ExtremeCalculus contributors (2026)",
+    "isNew": true,
+    "addedAt": "2026-10-09T00:00:00Z"
+  },
+  {
+    "id": "lights-out",
+    "title": "Lights Out",
+    "category": "Strategy",
+    "tags": [
+      "logic",
+      "grid",
+      "brain"
+    ],
+    "description": "Every switch changes its neighbors. Find the sequence that turns the whole board dark.",
+    "controls": "Click or tap a light. Tab and Enter also work. Every generated board is solvable.",
+    "thumbnail": "thumbnails/lights-out.svg",
+    "embedUrl": "games/original/index.html?game=lights-out",
+    "source": "ExtremeCalculus contributors",
+    "license": "MIT \u2014 ExtremeCalculus contributors (2026)",
+    "isNew": true,
+    "addedAt": "2026-10-09T00:00:00Z"
+  }
+]

@@ -1,0 +1,48 @@
+name: Update licensed games
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 6 * * 1'
+permissions:
+  contents: write
+  pages: write
+concurrency:
+  group: licensed-game-catalog-main
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Import approved publisher feed
+        env:
+          FEED_URL: ${{ secrets.FEED_URL }}
+          FEED_KEY: ${{ secrets.FEED_KEY }}
+        run: node scripts/import-feed.js
+      - name: Generate sitemap and verify catalog
+        run: |
+          node scripts/make-sitemap.js
+          node --test tests/*.test.js
+      - name: Commit updates to main
+        run: |
+          git add data/games.json sitemap.xml
+          if git diff --cached --quiet; then
+            echo "No catalog changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update licensed game catalog and sitemap"
+          git push origin HEAD:main
+      # GITHUB_TOKEN commits do not reliably retrigger branch-based Pages builds.
+      - name: Request a branch-based Pages rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST repos/allegendpl/Homeworkcalculusextreme/pages/builds
